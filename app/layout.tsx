@@ -8,7 +8,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://localhost:3000'),
+  metadataBase: new URL('https://callsign.vercel.app/'),
 
   title: {
     default: 'CALLSIGN | EVM Calldata Decoder',
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
 
   openGraph: {
     type: 'website',
-    url: 'https://localhost:3000',
+    url: 'https://callsign.vercel.app/',
     siteName: 'CALLSIGN',
     title: 'CALLSIGN | EVM Calldata Decoder',
     description:
